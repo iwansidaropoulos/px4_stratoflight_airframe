@@ -1,0 +1,16 @@
+Acteurs :
+- : drone prototype
+- Nervure : voile
+- CNES : ballon (plus léger que l'air) + recherche
+- Supaéro
+
+PFE : PX4 -> nouveau modèle (airframe) pour parachute -> simulateur
+PX4 s'interface avec ROS + plusieurs projets MEA
+
+VM
+QGroundControl pour flasher PX4 dans Pixhawk et 
+SITL pour simuler le soft sans hardware (parachute ?) (intégrer un URDF dans ROS - Gazebo ?) à quel point c'est élaboré
+Recherche simulation parachute pour interfacer
+
+11/10
+Etat de l'art, plan, discussion intégration simulation
