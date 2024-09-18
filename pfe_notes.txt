@@ -12,5 +12,10 @@ QGroundControl pour flasher PX4 dans Pixhawk et
 SITL pour simuler le soft sans hardware (parachute ?) (intégrer un URDF dans ROS - Gazebo ?) à quel point c'est élaboré
 Recherche simulation parachute pour interfacer
 
+Documentation pendant 1 mois:
+- PX4 : airframes, interfaçage avec ROS, SITL, flash sur Pixhawk, …
+- Pixhawk
+- Simulateurs de parapente
+
 11/10
 Etat de l'art, plan, discussion intégration simulation
