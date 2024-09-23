@@ -19,4 +19,6 @@ Liens d'Allan :
 - [Control Allocation](https://docs.px4.io/main/en/concept/control_allocation.html) - Documentation pour control allocation sur PX4.
 - [Adding a new airframe group](https://docs.px4.io/main/en/dev_airframes/adding_a_new_frame.html#adding-a-new-airframe-group) - Documentation sur l'ajout d'un nouveau airframe group sur PX4.
 - [PX4 ROS 2](https://docs.px4.io/main/en/ros2/px4_ros2_interface_lib.html) - Documentation sur une librairie d'interfaçage avec ROS2.
+- [Discord PX4](https://discord.gg/dronecode) - Discord PX4.
+- [Video of Integrated UAV Simulation](https://www.youtube.com/live/j4EZoyoVZD8?si=WFofWvx0o-Q3I7TE) - Rediffusion de live YouTube "Integrated UAV Simulation Workflows".
 

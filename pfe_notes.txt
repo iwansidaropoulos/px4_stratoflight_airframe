@@ -1,8 +1,11 @@
 Acteurs :
-- : drone prototype
+
+- AXEIS : drône prototype 
 - Nervure : voile
-- CNES : ballon (plus léger que l'air) + recherche
-- Supaéro
+- CNES : ballon d'hélium (+ léger que air) BSO (ZPB en anglais) + expériences
+- Expleo : vidéo + prémices
+- Soben : trains d'atterissage
+- Supaéro : école d'ingé dans l'aérospatial pour projets
 
 PFE : PX4 -> nouveau modèle (airframe) pour parachute -> simulateur
 PX4 s'interface avec ROS + plusieurs projets MEA
@@ -12,10 +15,60 @@ QGroundControl pour flasher PX4 dans Pixhawk et
 SITL pour simuler le soft sans hardware (parachute ?) (intégrer un URDF dans ROS - Gazebo ?) à quel point c'est élaboré
 Recherche simulation parachute pour interfacer
 
+Dynamique : modèle avec finesse, quantité de ligne tirée pour inclinaison
+
 Documentation pendant 1 mois:
 - PX4 : airframes, interfaçage avec ROS, SITL, flash sur Pixhawk, …
 - Pixhawk
 - Simulateurs de parapente
 
+------------------------------------------------------
 11/10
 Etat de l'art, plan, discussion intégration simulation
+------------------------------------------------------
+
+
+
+
+
+Notes 23/09
+
+Autopilot : drone's "brain" -> flight stack : ensemble de logiciels/systèmes pour drone (exemple : PX4)
+QGroundControl : GCS (Ground Control Station) compatible PX4, telemetry radio
+Pixhawk : flight controller hardware compatible PX4
+- capteurs :
+	- intégrés : gyroscope, acceleromètre, magnétomètre, baromètre
+	- possibles : GPS, airspeed, rangefinder, optiques
+- sorties (PMW,...) : moteurs, servos, actuators
+- Sorties FMU (Flight Management Unit) et I/O (I/O Board). FMU = carte mère. I/O pour la redondance ou la sécurité en cas de défaillance ou redémarrage de FMU
+FMU peut utiliser D-shot (protocole communication numérique) au lieu de PWM
+
+Moteurs (brushless) contrôlés par ESC (Electronic Speed Controller)
+
+Contrôlable avec Radio Control System ou Joystick/Gamepad via QGroundControl
+
+Présence d'un Safety switch pour armer le drone, souvent intégré dans le module GPS
+Présence d'un buzzer pour faire du bruit, souvent intégré dans le module GPS
+Présence de LEDs, souvent intégrés dans le module GPS
+
+Data/Telemetry Radios pour communication MAVLink (protocole de communication standardisé pour drones)
+
+Companion computer (de préférence sur Linux)
+
+SD Cards pour storage de flight logs
+
+Payloads : cameras, instruments de mesure, etc. (pas utilisés pour le projet ?)
+
+Notion de armé/désarmé
+
+Flights modes : autonomous modes, manual modes
+
+Notion de failsafe
+
+
+
+
+
+
+
+
