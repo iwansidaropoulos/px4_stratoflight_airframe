@@ -31,7 +31,7 @@ Etat de l'art, plan, discussion intégration simulation
 
 
 
-Notes 23/09
+Notes Basic Concepts
 
 Autopilot : drone's "brain" -> flight stack : ensemble de logiciels/systèmes pour drone (exemple : PX4)
 QGroundControl : GCS (Ground Control Station) compatible PX4, telemetry radio
@@ -66,9 +66,76 @@ Flights modes : autonomous modes, manual modes
 Notion de failsafe
 
 
+Heading and Directions :
+- x en face - roll
+- y à droite - pitch
+- z en bas - yaw
+
+-----------------------------------------------------------------
+
+Aiframes :
+
+- Planes : ce qu'il faut utiliser
+- Multicopters
+- VTOL
+- UGV/Rover
+
+References pour Planes :
+- Flying Wing : potentiellement à utiliser car similaire au parapente : surface portante continue, etc.
+- Plane A-Tail
+- Standard Plane
+
+Adding a Frame Configuration :
+frame configuration files -> shell scripts executed in QGroundControl
+
+Tutos pour :
+- Développer un frame configuration
+- Ajouter configuration to firmware
+- Ajouter configuration to sd card
+- Ajouter un nouveau groupe d'airframes
+- Ajouter un frame à QGroundControl
+
+Fichier de configuration :
+- documentation
+- controllers et apps à start
 
 
+-----------------------------------------------------------
+
+Control Allocation (ou Mixing) :
+
+Manière dont le système de contrôle de col convertir les commandes de contrôle en mouvements réels
+Entrées : desired torque and thrust (couple et poussée)
+Sorties : Actuators, moteurs, servos, etc.
+
+Tutos pour :
+- Ajouter une nouvelle geométrie ou ouput function
+- Mettre la Default Frame Geometry
+- paramétrer geometry et outputs
 
 
+-----------------------------------------------------------
 
+Simulation
+
+Simulateurs supportés : Gazebo, Gazebo Classic
+
+Simulateurs (hors Gazebo) utilisent simulator MAVLink API, qui gère la communication bi-directionnelle entre Flight Stack et Simulator
+
+SITL Simulation Environment par exemple utilise la communication MAVLink :
+
+____________________________
+		            |
+PX4 on SITL               | | <---> API/Offboard
+         mavlink_main.cpp | |
+	                  | | <---> QGroundControl/other <--- Joystick/Gamepad
+                            |		      
+    simulator_mavlink.cpp | | <---> Simulator
+____________________________|
+
+*voir la page pour les ports
+
+Tuto pour la SITL
+
+Gazebo vs jMAVSim (plus basique) ?
 
