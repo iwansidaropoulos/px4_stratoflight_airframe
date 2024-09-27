@@ -139,3 +139,61 @@ Tuto pour la SITL
 
 Gazebo vs jMAVSim (plus basique) ?
 
+-------------------------------------------------------------
+
+Drone Apps et API
+
+
+- MAVSDK : fait pour PX4
+- ROS2 : doit passer par MAVROS pour faire la liaison entre MAVLink et ROS
+- ROS1 (pas recommandé)
+
+Tutos pour chaque
+
+
+
+---------------------------------------------------------
+---------------------------------------------------------
+
+PX4 Paramotor Project, by junwoo0914
+
+- main branch in PX4 without modifications
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
