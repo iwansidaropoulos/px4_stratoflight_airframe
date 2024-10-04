@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="PFE" company="" webLink="http://" view-date="2024-08-19" view-index="0" gantt-divider-location="526" resource-divider-location="300" version="3.3.3312" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="300" order="0"/>
+        <field id="tpd4" name="Date de début" width="112" order="1"/>
+        <field id="tpd5" name="Date de fin" width="113" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ffcccc #f4f4f4 #cccccc #99ffff #ff6666 #6666ff #000000 #99ff99 #00ff33 #33ffff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2024" month="10" date="28" type="HOLIDAY"><![CDATA[Vacances sur 28/10/2024 00:00]]></date>
+        <date year="2024" month="10" date="29" type="HOLIDAY"><![CDATA[Vacances sur 29/10/2024 00:00]]></date>
+        <date year="2024" month="10" date="30" type="HOLIDAY"><![CDATA[Vacances sur 30/10/2024 00:00]]></date>
+        <date year="2024" month="10" date="31" type="HOLIDAY"><![CDATA[Vacances sur 31/10/2024 00:00]]></date>
+        <date year="2024" month="11" date="1" type="HOLIDAY"><![CDATA[Vacances sur 01/11/2024 00:00]]></date>
+        <date year="2024" month="11" date="2" type="HOLIDAY"><![CDATA[Vacances sur 02/11/2024 00:00]]></date>
+        <date year="2024" month="11" date="3" type="HOLIDAY"><![CDATA[Vacances sur 03/11/2024 00:00]]></date>
+        <date year="2024" month="12" date="23" type="HOLIDAY"><![CDATA[Vacances sur 23/12/2024 00:00]]></date>
+        <date year="2024" month="12" date="24" type="HOLIDAY"><![CDATA[Vacances sur 24/12/2024 00:00]]></date>
+        <date year="2024" month="12" date="25" type="HOLIDAY"><![CDATA[Vacances sur 25/12/2024 00:00]]></date>
+        <date year="2024" month="12" date="26" type="HOLIDAY"><![CDATA[Vacances sur 26/12/2024 00:00]]></date>
+        <date year="2024" month="12" date="27" type="HOLIDAY"><![CDATA[Vacances sur 27/12/2024 00:00]]></date>
+        <date year="2024" month="12" date="28" type="HOLIDAY"><![CDATA[Vacances sur 28/12/2024 00:00]]></date>
+        <date year="2024" month="12" date="29" type="HOLIDAY"><![CDATA[Vacances sur 29/12/2024 00:00]]></date>
+        <date year="2024" month="12" date="30" type="HOLIDAY"><![CDATA[Vacances sur 30/12/2024 00:00]]></date>
+        <date year="2024" month="12" date="31" type="HOLIDAY"><![CDATA[Vacances sur 31/12/2024 00:00]]></date>
+        <date year="2025" month="1" date="1" type="HOLIDAY"><![CDATA[Vacances sur 01/01/2025 00:00]]></date>
+        <date year="2025" month="1" date="2" type="HOLIDAY"><![CDATA[Vacances sur 02/01/2025 00:00]]></date>
+        <date year="2025" month="1" date="3" type="HOLIDAY"><![CDATA[Vacances sur 03/01/2025 00:00]]></date>
+        <date year="2025" month="1" date="4" type="HOLIDAY"><![CDATA[Vacances sur 04/01/2025 00:00]]></date>
+        <date year="2025" month="1" date="5" type="HOLIDAY"><![CDATA[Vacances sur 05/01/2025 00:00]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="24" uid="01c205883d8d45209cc92f751172f4c2" name="Gestion de projet" color="#ffcc99" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2024-09-16" duration="140" complete="0" expand="true">
+            <task id="28" uid="1ff023c41a474953a4e6288109dda541" name="Définition des objectifs du projet" color="#ffcccc" meeting="false" start="2024-09-16" duration="14" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="0cdb896d46384ab6bebd6d7298b4906c" name="Création du diagramme de Gantt" color="#ffcccc" meeting="false" start="2024-09-30" duration="7" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="14ea35607ea743f88dff24a1dd735953" name="Suivi du projet et ajustements" color="#ffcccc" meeting="false" start="2024-10-07" duration="119" complete="0" expand="true"/>
+        </task>
+        <task id="19" uid="bfc11d154115492f93bc3ba3aae51f00" name="Documentation et prise en main des outils" color="#000000" meeting="false" start="2024-09-23" duration="112" complete="0" expand="true">
+            <task id="0" uid="834664d1305a4372bd619d90383e1a69" name="Documentation PX4/QGroundControl" color="#99ff99" meeting="false" start="2024-09-23" duration="14" complete="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1" uid="a306cfaf238c4a71a0193c076fbeb967" name="Familiarisation MAVROS et ROS2" color="#6666ff" meeting="false" start="2024-12-02" duration="7" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" uid="4a7cbac9fd81408c991723f14d560995" name="Documentation Gazebo/SITL" color="#6666ff" meeting="false" start="2024-12-09" duration="4" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" uid="73333b0595554f258bf20642125616c8" name="Documentation Pixhawk/HITL" color="#ff6666" meeting="false" start="2025-01-27" duration="7" complete="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="20" uid="3c602b25c37a4a38abf0b478903048a4" name="Création de l'airframe personnalisé" color="#00ff33" meeting="false" start="2024-10-07" duration="49" complete="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+            <task id="4" uid="5024a224ef5145718b5fd53091d7bbd9" name="Étude du modèle Fixed Wing" color="#99ff99" meeting="false" start="2024-10-07" duration="14" complete="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" uid="12222a47142348328ffca068b4034edd" name="Adapatation pour parapente" color="#99ff99" meeting="false" start="2024-10-21" duration="21" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" uid="0b3f3c33f28c464f9196ae3e7fcfc162" name="Configuration de la dynamique de vol" color="#99ff99" meeting="false" start="2024-11-18" duration="14" complete="0" expand="true"/>
+        </task>
+        <task id="21" uid="407be9bbdd51471dadf4feb0dca762a9" name="Simulation SITL avec Gazebo" color="#3333ff" meeting="false" start="2024-12-13" duration="31" complete="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+            <task id="7" uid="9c9353d458904214b58c4abae3307aa7" name="Configuration de l'environnement Gazebo" color="#6666ff" meeting="false" start="2024-12-13" duration="5" complete="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="0c75f18b96244c309489ea4d3b99213c" name="Intégration de l'airframe" color="#6666ff" meeting="false" start="2024-12-18" duration="5" complete="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" uid="4a110ed6ed02485ba6698e7b90038400" name="Simulation des scénarios de vol" color="#6666ff" meeting="false" start="2025-01-06" duration="14" complete="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" uid="46c5335f8b504929a348959fa9329846" name="Ajustements et itérations" color="#6666ff" meeting="false" start="2025-01-20" duration="7" complete="0" expand="true"/>
+        </task>
+        <task id="22" uid="f661e0c3e35b46cca2666643556c6168" name="Simulation HITL avec Pixawhk" color="#ff0000" meeting="false" start="2025-02-03" duration="8" complete="0" expand="true">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+            <task id="11" uid="4b775e8254654b9cb24fd92b618fbf1b" name="Configuration HITL avec Pixhawk" color="#ff6666" meeting="false" start="2025-02-03" duration="2" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="c8699a9d33254e4a9cd015401e4a916d" name="Test HITL avec paramoteur RC" color="#ff6666" meeting="false" start="2025-02-05" duration="4" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" uid="cbf7765b62234866a0d170a9e28d1d02" name="Ajustements du modèle" color="#ff6666" meeting="false" start="2025-02-09" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="23" uid="8c71b89f97d2407b81151d7736c7abb5" name="Tests en conditions réelles" color="#33ffff" meeting="false" start="2025-02-11" duration="6" complete="0" expand="true">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+            <task id="14" uid="f220b64822954f7fb42c74633e4b80bd" name="Préparation des tests en conditions réelles" color="#99ffff" meeting="false" start="2025-02-11" duration="1" complete="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" uid="ed64c236c85f49ec81ab8d51621afb83" name="Vols réels avec paramoteur RC" color="#99ffff" meeting="false" start="2025-02-12" duration="4" complete="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="6c30f0624d3f4b61be81b6b2111f7d38" name="Optimisation finale et validation" color="#99ffff" meeting="false" start="2025-02-16" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="25" uid="7587dc3a761d4a5b9fc12ef5697696cd" name="Documentation finale et rédaction" color="#999999" meeting="false" start="2025-02-17" duration="7" complete="0" expand="true">
+            <task id="26" uid="42fc381e1af84ff49ad7775ea857896e" name="Rédaction du rapport" color="#cccccc" meeting="false" start="2025-02-17" duration="7" complete="0" expand="true"/>
+            <task id="29" uid="414cf5e8648a428fbbf41d9f99b471b6" name="Création du poster de projet" color="#cccccc" meeting="false" start="2025-02-17" duration="7" complete="0" expand="true"/>
+            <task id="27" uid="e6455ebf75c047858df53380ee1cf8eb" name="Préparation de la présentation finale" color="#cccccc" meeting="false" start="2025-02-17" duration="7" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

@@ -166,9 +166,16 @@ PX4 Paramotor Project, by junwoo0914
 
 
 
+---------------------------------------------------------------GESTION PROJET-------------------------------------------------------------------
 
 
+17 semaines à ~8h / semaine (20 - 3 semaines de vacances) 	= ~136h
+	- début : semaine du 16/09
+	- pauses : semaines du 28/10, 23/12, 30/12
+	- fin : semaine du 27/01
 
+3 semaines à ~35h / semaine 					= ~105h
+	- semaines du 03/02, 10/02, 17/02
 
 
 
