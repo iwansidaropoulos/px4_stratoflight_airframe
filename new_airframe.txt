@@ -1,0 +1,20 @@
+New Frame configuration :
+- Dans PX4-Autopilot/ROMFS/px4fmu_common/init.d/airframes : Ajouter 3100_paraglider
+- Dans PX4-Autopilot/ROMFS/px4fmu_common/init.d/airframes : Modifier CMakeLists.txt
+
+New airframe group (pour QGroundControl) :
+- Dans PX4-user_guide/assets/airframes/types : Ajouter Paraglider.svg (pas encore là)
+- Dans Tools/px4airframes : Modifier srcparser.py
+- Dans qgroundcontrol/src/AutoPilotPlugins/Common/Images : Ajouter Paraglider.svg (pas encore là)
+- Dans qgroundcontrol : Modifier qgcimages.qrc
+
+Add frame to QGroundControl :
+https://docs.px4.io/main/en/dev_airframes/adding_a_new_frame.html#add-frame-to-qgroundcontrol
+
+New model (Gazebo) :
+- Dans PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes : Ajouter 3100_gz_paraglider
+- Dans PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes : Modifier CMakeLists.txt
+- Dans PX4-Autopilot/Tools/simulation/gz/models : Ajouter le dossier paraglider (pas encore fait)
+
+Nouveau .sdf :
+
