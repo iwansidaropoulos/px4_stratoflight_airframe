@@ -1,0 +1,72 @@
+Voile Stratoflight :
+
+a0 : angle d'incidence de portance nulle. CL(a0)=0
+-0,2° = -0,00349066
+
+alpha_stall : angle de décrochage. CL(alpha_stall) = CLmax
+5° = 0.0872665
+
+CL0 : portance à alpha nul. CL0 = CL(0)
+0,02
+
+CLa : pente de portance. dCl/dAlpha 
+(0,44 - 0,02)/2 = 0,21
+
+CLa_stall : pente de portance. dCL/dAlpha (après décrochage)
+(0,5 - 0,65)/(6-5) = -0,15
+
+CLa/CL0 = 10,5
+CLa_stall/CL0 = -7,5
+
+
+CD0 : traînée à alpha nul. CD0 = CD(0)
+0,025
+
+CDa_stall : augmentation de traînée après décrochage. dCD/dAlpha (après décrochage)
+(Cd(Cl = 0,5) - Cd(Cl = 0,65))/(6-5)
+(0,064 - 0,04)/(6-5) = 0,024
+
+CDa_stall/CD0 = 1
+
+Cm0 : moment à alpha nul. Cm0 = Cm(0)
+0,03
+
+Cema : variation du moment. dCm/dAlpha
+-0,03/2 = -0,015
+
+Cema_stall : variation du moment (après décrochage) :
+(0,005-0,003)/(6-5) = 0,002
+
+Cema/Cm0 = -2	
+Cema_stall/Cm0 = 0,0667
+
+---
+
+Advanced_plane :
+
+CLa/CL0 = 0,029/0,152 = 0,19
+CLa_stall/CL0 = -3,85/0,152 = -25
+
+CDa_stall/CD0 = -0,92/0,025 = -37
+
+Cema/Cm0 = -0,46/0,03 = -15,3
+Cema_stall/Cm0 = 0/0,03 = 0
+
+---
+
+Adaptation des valeurs de stall pour conserver les rapports de la voile :
+
+CLa_stall/CL0 = -3,85/0,152 = -25 -> -7,5
+CLa_stall/0,152 = -7,5 | CLa_stall = 0,152*-7,5 = -1,14
+
+CLa/CL0 = 0,029/0,152 = 0,19 -> 10,5
+CLa/0,152 = 10,5 | CLa = 10,5*0,152 = 1,6
+
+CDa_stall/CD0 = -0,92/0,025 = -37 -> 1
+CDa_stall/0,025 = 1 | CDa_stall = 0,025
+
+Cema_stall/Cm0 = 0/0,03 = 0 -> 0,0667
+Cema_stall/0,03 = 0,0667 | Cema_stall = 0,0667*0,03 = 0,002
+
+Cema/Cm0 = -0,46/0,03 = -15,3 -> -2
+Cema/0,03 = -2 | Cema = -2*0,03 = -0,06
