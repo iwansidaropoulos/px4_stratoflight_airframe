@@ -1,0 +1,9 @@
+docker start -i px4-ros
+docker exec -it px4-ros bash
+
+xhost +local:root
+
+PX4_GZ_WORLD=walls PX4_GZ_MODEL_POSE=0,0,251.0,0,0,0 make px4_sitl gz_advanced_plane
+
+PX4_GZ_WORLD=walls PX4_GZ_MODEL_POSE=0,0,250.6,0,0,0 make px4_sitl gz_advanced_plane
+
